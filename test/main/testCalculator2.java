@@ -217,7 +217,6 @@ class testCalculator {
 	public void MMRestMAX() throws Exception {
 		assertEquals(-num1 % -num1, calculator.Rest(-num1, -num1));
 	}
-	/*
 	// ADD
 	@Test
 	public void PPAdd() throws Exception {
@@ -415,5 +414,5 @@ class testCalculator {
 	public void MMRest() throws Exception {
 		final double result = calculator.Rest(-num3, -num3);
 		assertEquals(-num3 % -num3, result);
-	}*/
+	}
 }
